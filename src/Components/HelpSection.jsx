@@ -30,7 +30,7 @@ export default function HelpSection() {
               <img
                 src="/side4.jpg"
                 alt="Video Call"
-                className="w-[380px] md:w-[500px] rounded-[10px] object-cover"
+                className="w-[380px] md:w-[300px] rounded-[10px] object-cover"
               />
             </div>
 
