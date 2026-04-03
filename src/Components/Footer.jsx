@@ -91,12 +91,12 @@ export default function Footer() {
           <div className="space-y-4 text-sm text-gray-600">
             <div className="flex gap-2">
               <FaMapMarkerAlt className="text-red-600 mt-1" />
-              <p>Regina, SK - 2010 11th Avenue, 7th Floor</p>
+              <p className="text-lg">Regina, SK - 2010 11th Avenue, 7th Floor</p>
             </div>
 
             <div className="flex gap-2">
               <FaMapMarkerAlt className="text-red-600 mt-1" />
-              <p>Winnipeg, MB - 330 St.Mary Avenue</p>
+              <p className="text-lg">Winnipeg, MB - 330 St.Mary Avenue</p>
             </div>
 
             <div className="flex gap-2">
@@ -106,12 +106,12 @@ export default function Footer() {
 
             <div className="flex gap-2">
               <FaMapMarkerAlt className="text-red-600 mt-1" />
-              <p>Surrey, BC - 7404 King George Blvd</p>
+              <p className="text-lg">Surrey, BC - 7404 King George Blvd</p>
             </div>
 
             <div className="flex gap-2">
               <FaMapMarkerAlt className="text-red-600 mt-1" />
-              <p>Brampton, ON - 2969 Bovaird Dr East</p>
+              <p className="text-lg">Brampton, ON - 2969 Bovaird Dr East</p>
             </div>
           </div>
         </div>

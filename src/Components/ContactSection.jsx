@@ -7,9 +7,9 @@ export default function ContactSection() {
         {/* LEFT IMAGE */}
         <div className="flex justify-center md:justify-start">
           <img
-            src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=900&q=80&fm=webp"
+            src="/side7.jpg"
             alt="happy couple"
-            className="w-full max-w-[500px] h-[350px] md:h-[450px] object-cover rounded-xl shadow-lg"
+            className="w-full max-w-[700px] h-[350px] md:h-[450px] object-cover rounded-xl shadow-lg"
           />
         </div>
 

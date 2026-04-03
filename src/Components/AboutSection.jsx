@@ -2,37 +2,28 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <section className="bg-gray-100 py-16 px-6">
-      {/* Brand Strip */}
-      <div className="bg-gray-900 text-white py-4 px-6 flex items-center justify-between overflow-x-auto">
-        <span className="text-sm md:text-lg font-semibold whitespace-nowrap">
-          COMPARE & GET LOWEST QUOTES FROM CANADA'S TOP INSURERS
-        </span>
+    <section className="bg-[#f5f5f5] py-16 px-6">
+      {/* 🔹 TOP BRAND STRIP */}
 
-        <div className="flex gap-10 items-center ml-6">
-          <span className="opacity-70">IA Financial</span>
-          <span className="opacity-70">Foresters</span>
-          <span className="opacity-70">Desjardins</span>
-        </div>
-      </div>
-
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center mt-12">
-        {/* Left Content */}
+      {/* 🔹 MAIN SECTION */}
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center mt-12">
+        {/* 🔸 LEFT CONTENT */}
         <div>
-          <p className="text-gray-500 uppercase text-sm">
+          <p className="text-gray-500 uppercase text-sm tracking-wide">
             WELCOME TO Canadian L.I.C INC
           </p>
 
-          <h2 className="text-3xl md:text-4xl font-bold mt-2 leading-snug">
+          <h2 className="text-3xl md:text-4xl font-bold mt-3 leading-snug text-gray-900">
             Most Trusted Insurance Broker in Canada | Canadian L.I.C Inc
           </h2>
 
-          <p className="text-gray-600 mt-4 leading-relaxed">
+          <p className="text-gray-600 mt-5 leading-relaxed">
             Harpreet Puri is a well certified Insurance Adviser and MDRT
             qualifier with a constructive consistency for almost 10 years. She
             is recognized as one of the most pinnacle Insurance Brokers in GTA,
-            Ontario.
+            Ontario. Bearing the right technical knowledge of all formalities
+            and applicable legalities, we can help you get the right Insurance
+            Advice that you are looking for.
           </p>
 
           <p className="text-gray-600 mt-4 leading-relaxed">
@@ -42,26 +33,26 @@ export default function AboutSection() {
           </p>
         </div>
 
-        {/* Right Images */}
+        {/* 🔸 RIGHT IMAGE SECTION */}
         <div className="relative flex justify-center md:justify-end">
-          {/* Main Image */}
+          {/* MAIN BIG IMAGE */}
           <img
             src="https://images.unsplash.com/photo-1607746882042-944635dfe10e"
-            alt="family"
-            className="w-[350px] md:w-[450px] rounded-lg shadow-lg"
+            alt="Family"
+            className="w-[320px] md:w-[460px] h-auto rounded-md shadow-lg object-cover"
           />
 
-          {/* Small Image */}
+          {/* SMALL OVERLAY IMAGE */}
           <img
-            src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4"
-            alt="elder"
-            className="hidden md:block absolute bottom-0 right-0 w-[200px] rounded-lg shadow-md border-4 border-white"
+            src="/side3.jpg"
+            alt="Elder Couple"
+            className="hidden md:block absolute top-10 right-[-30px] w-[180px] rounded-md shadow-md border-4 border-white"
           />
 
-          {/* Floating Card */}
-          <div className="absolute bottom-[-30px] left-4 md:left-10 bg-white p-6 rounded-lg shadow-xl">
-            <p className="text-gray-600 text-sm">Our Advisers are</p>
-            <h3 className="text-2xl font-bold">MDRT Qualified</h3>
+          {/* FLOATING CARD */}
+          <div className="absolute bottom-[-25px] left-6 bg-white px-6 py-4 rounded-md shadow-xl">
+            <p className="text-gray-500 text-xl">Our Advisers are</p>
+            <h3 className="text-4xl font-bold text-gray-900">MDRT Qualified</h3>
           </div>
         </div>
       </div>
