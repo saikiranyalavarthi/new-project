@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HowItWorks() {
   return (
-    <section className="bg-[#f3f3f3] py-20 px-6">
+    <section className="bg-[#f3f3f3] py-6 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* LEFT SIDE */}
         <div>
@@ -33,8 +33,10 @@ export default function HowItWorks() {
               <div>
                 <h3 className="font-semibold text-lg">{item.title}</h3>
                 <p className="text-gray-600 mt-1 leading-relaxed max-w-md">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
-Travel Shield Canada Insurance Plan
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. It
+                  was popularised in the 1960s with the release of Letraset
+                  sheets containing Lorem Ipsum passages. Travel Shield Canada
+                  Insurance Plan
                 </p>
               </div>
             </div>
@@ -59,8 +61,9 @@ Travel Shield Canada Insurance Plan
                 <h3 className="text-lg font-semibold mb-2">Compare rates</h3>
 
                 <p className="text-sm text-gray-600 mb-5">
-                  Lorem ipsum dolor sit amet, It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
-Travel Shield Canada Insurance Plan
+                  Lorem ipsum dolor sit amet, It was popularised in the 1960s
+                  with the release of Letraset sheets containing Lorem Ipsum
+                  passages. Travel Shield Canada Insurance Plan
                 </p>
 
                 {/* CARD 1 */}

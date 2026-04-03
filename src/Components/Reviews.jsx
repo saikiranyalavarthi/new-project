@@ -29,7 +29,7 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section className="bg-gray-100 py-16 px-6">
+    <section className="bg-gray-100 py-6 px-6">
       <div className="max-w-7xl mx-auto">
         {/* TOP SECTION */}
         <div className="grid md:grid-cols-3 gap-6 items-center mb-12">

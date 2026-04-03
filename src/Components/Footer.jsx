@@ -10,7 +10,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 pt-16">
+    <footer className="bg-gray-100 pt-8">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
         {/* LEFT - LOGO + CONTACT */}
         <div>
@@ -91,7 +91,9 @@ export default function Footer() {
           <div className="space-y-4 text-sm text-gray-600">
             <div className="flex gap-2">
               <FaMapMarkerAlt className="text-red-600 mt-1" />
-              <p className="text-lg">Regina, SK - 2010 11th Avenue, 7th Floor</p>
+              <p className="text-lg">
+                Regina, SK - 2010 11th Avenue, 7th Floor
+              </p>
             </div>
 
             <div className="flex gap-2">

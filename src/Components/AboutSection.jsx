@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <section className="bg-[#f5f5f5] py-16 px-6">
+    <section className="bg-[#f5f5f5] py-8 px-6">
       {/* 🔹 TOP BRAND STRIP */}
 
       {/* 🔹 MAIN SECTION */}

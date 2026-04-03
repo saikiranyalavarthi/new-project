@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HelpSection() {
   return (
-    <section className="bg-[#e9ecef] py-16 md:py-20 px-4 md:px-6 overflow-hidden">
+    <section className="bg-[#e9ecef] py-8 md:py-8 px-4 md:px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12 md:gap-16">
         {/* LEFT CONTENT */}
         <div>
